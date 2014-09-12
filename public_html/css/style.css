@@ -1,0 +1,54 @@
+
+.wrapper {
+    height: 115px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 66%;
+}
+.container > div {
+    border: 1px solid;
+    display: inline-block;
+    height: 100px;
+    margin: 6px 15px;
+    width: 3%;
+}
+.container > div > span {
+}
+.btn {
+    border: 1px solid;
+    height: 111px;
+    position: absolute;
+    top: 0;
+    width: 2%;
+}
+.next {
+    right: 0;
+}
+.prev {
+}
+.container {
+    margin: 0 0 0 2%;
+    overflow: hidden;
+    width: 9000px;
+}
+@media all and (min-width:768px) and (max-width:1023px){
+
+    .container > div {
+        border: 1px solid;
+        display: inline-block;
+        height: 100px;
+        margin: 6px 30px;
+        width: 2%;
+    }
+}
+@media all and (min-width:1025px){
+
+    .container > div {
+        border: 1px solid;
+        display: inline-block;
+        height: 100px;
+        margin: 6px 15px;
+        width: 3%;
+    }
+}
